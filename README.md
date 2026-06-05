@@ -1,4 +1,4 @@
-# GhostRelay
+w# GhostRelay
 
 Decentralized peer-to-peer command and control framework. Uses libp2p for network communication, IPFS for payload hosting, and process hollowing for stealth execution. No central servers, no fixed IP addresses.
 
@@ -28,7 +28,7 @@ Core (controller) accepts connections from agents and console. Agents connect to
 ## Build
 
 ```bash
-git clone https://github.com/yourusername/ghost-relay.git
+git clone https://github.com/yyyyyyyxc/GhostRelay.git
 cd ghost-relay
 make all
 make windows-agent
