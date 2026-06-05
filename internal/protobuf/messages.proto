@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ghost;
+
+message Envelope {
+  bytes encrypted_payload = 1;
+  bytes nonce = 2;
+}
+
+message Command {
+  string id = 1;
+  string type = 2;
+  string args = 3;
+}
+
+message Result {
+  string command_id = 1;
+  string output = 2;
+  bool success = 3;
+}
