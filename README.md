@@ -1,4 +1,4 @@
-w# GhostRelay
+# GhostRelay
 
 Decentralized peer-to-peer command and control framework. Uses libp2p for network communication, IPFS for payload hosting, and process hollowing for stealth execution. No central servers, no fixed IP addresses.
 
